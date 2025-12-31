@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #f5f5f5; /* Per image, outer bg is light */
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 20px;
+    color: #444;
+}
+
+.accordion-icon {
+    transform: rotate(180deg);
+    font-weight: bold;
+    color: #444;
+}
+
+.note {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.note a {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card-form-container {
+    background: #fff;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    color: #212121;
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 14px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #212121;
+    outline: none;
+    transition: border-color 0.2s;
+    box-sizing: border-box; /* Important for width: 100% */
+}
+
+input:focus {
+    border-color: #2874f0;
+}
+
+input::placeholder {
+    color: #878787;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.col {
+    flex: 1;
+}
+
+.card-icon {
+    position: absolute;
+    right: 12px;
+    width: 30px;
+    height: 20px;
+    background-color: #f0f0f0; /* Placeholder for card brand icon */
+    border-radius: 2px;
+}
+
+.help-icon {
+    position: absolute;
+    right: 12px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    color: #999;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pay-btn {
+    width: 100%;
+    background-color: #ffc200; /* Yellow */
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.pay-btn:hover {
+    background-color: #ffb300;
+}
